@@ -1,0 +1,87 @@
+
+
+#login-nav input { margin-bottom: 15px; }
+.navbar-nav .dropdown-menu {background-color: white;}
+
+.btn-success.login-btn:hover,
+.btn-success.login-btn:focus, 
+.btn-success.login-btn:active{
+  background-color:#023380;
+  border-color:#032B69;
+}
+
+.login-btn{
+  padding: 6px 12px;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.form-control{
+  border: 1px solid #ccc;
+}
+
+.slider-pic::before {
+content: '';
+background: url(../img/content-bg-cover.png);
+background-color: transparent;
+background-image: url("../img/content-bg-cover.png");
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+background-clip: border-box;
+background-origin: padding-box;
+background-size: auto auto;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+
+.carousel{
+  height: 100%;
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.slider-item{
+  height: 100%;
+}
+
+.slider-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.fill{
+
+  max-width: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.top-control{
+  z-index: 1025;
+}
+
+
+
+@media (min-width:1920px){
+  .fill{width:100%}
+}
+
+@media (max-width:999px){
+  .fill{height:100%;width:100%;}
+}
+
